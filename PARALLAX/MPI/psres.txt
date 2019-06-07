@@ -1,0 +1,671 @@
+()
+Download finished!
+Uncompression finished!
+()
+Download finished!
+Uncompression finished!
+()
+Download finished!
+Uncompression finished!
+2019-05-15 05:45:14.510840: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:14.514353: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> localhost:44835, 1 -> 172.31.1.44:33509, 2 -> 172.31.14.234:33248}
+2019-05-15 05:45:14.514383: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> 172.31.13.170:44157, 1 -> 172.31.1.44:40800, 2 -> 172.31.14.234:41059}
+2019-05-15 05:45:14.516630: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:44835
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:290: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:122: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-05-15 05:45:19.010140: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:19.014525: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> 172.31.13.170:44835, 1 -> localhost:33509, 2 -> 172.31.14.234:33248}
+2019-05-15 05:45:19.014727: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> 172.31.13.170:44157, 1 -> 172.31.1.44:40800, 2 -> 172.31.14.234:41059}
+2019-05-15 05:45:19.015765: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:33509
+INFO:139634194491136:PARALLAX:parallel_run(PARALLAX_RUN_PS)
+INFO:139634194491136:PARALLAX:resource worker_172.31.13.170:44157:+172.31.1.44:40800:+172.31.14.234:41059:^ps_172.31.13.170:44835:+172.31.1.44:33509:+172.31.14.234:33248:^master_172.31.13.170:44267:
+2019-05-15 05:45:19.684437: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:19.686936: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> 172.31.13.170:44835, 1 -> 172.31.1.44:33509, 2 -> 172.31.14.234:33248}
+2019-05-15 05:45:19.686976: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> localhost:44157, 1 -> 172.31.1.44:40800, 2 -> 172.31.14.234:41059}
+2019-05-15 05:45:19.689718: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:44157
+2019-05-15 05:45:20.721108: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:20.725288: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> 172.31.13.170:44835, 1 -> 172.31.1.44:33509, 2 -> localhost:33248}
+2019-05-15 05:45:20.725361: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> 172.31.13.170:44157, 1 -> 172.31.1.44:40800, 2 -> 172.31.14.234:41059}
+2019-05-15 05:45:20.727339: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:33248
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:290: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:290: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:122: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From /home/ubuntu/ds2_hw/resnet_model.py:122: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+INFO:140452359227136:PARALLAX:parallel_run(PARALLAX_RUN_PS)
+INFO:140452359227136:PARALLAX:resource worker_172.31.13.170:44157:+172.31.1.44:40800:+172.31.14.234:41059:^ps_172.31.13.170:44835:+172.31.1.44:33509:+172.31.14.234:33248:^master_172.31.13.170:44267:
+2019-05-15 05:45:36.911437: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:36.914112: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> 172.31.13.170:44835, 1 -> 172.31.1.44:33509, 2 -> 172.31.14.234:33248}
+2019-05-15 05:45:36.914216: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> 172.31.13.170:44157, 1 -> 172.31.1.44:40800, 2 -> localhost:41059}
+2019-05-15 05:45:36.915144: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:41059
+INFO:140562662647552:PARALLAX:parallel_run(PARALLAX_RUN_PS)
+INFO:140562662647552:PARALLAX:resource worker_172.31.13.170:44157:+172.31.1.44:40800:+172.31.14.234:41059:^ps_172.31.13.170:44835:+172.31.1.44:33509:+172.31.14.234:33248:^master_172.31.13.170:44267:
+2019-05-15 05:45:37.141863: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-15 05:45:37.145268: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job ps -> {0 -> 172.31.13.170:44835, 1 -> 172.31.1.44:33509, 2 -> 172.31.14.234:33248}
+2019-05-15 05:45:37.145411: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:222] Initialize GrpcChannelCache for job worker -> {0 -> 172.31.13.170:44157, 1 -> localhost:40800, 2 -> 172.31.14.234:41059}
+2019-05-15 05:45:37.146388: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:40800
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from ckpt/model.ckpt-800
+2019-05-15 05:45:56.086038: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 8effb04e3139f63b with config: allow_soft_placement: true
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 800 into ckpt/model.ckpt.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2019-05-15 05:46:41.491789: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 393d889d1cf54a96 with config: allow_soft_placement: true
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2019-05-15 05:46:49.505839: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 87f44f88d3ca2c36 with config: allow_soft_placement: true
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+step: 800, loss: 1.231, precision: 0.625
+step: 800, loss: 1.211, precision: 0.656
+step: 800, loss: 1.282, precision: 0.625
+step: 810, loss: 1.304, precision: 0.617
+step: 810, loss: 1.335, precision: 0.609
+step: 810, loss: 1.301, precision: 0.578
+step: 820, loss: 1.048, precision: 0.695
+step: 820, loss: 1.320, precision: 0.531
+step: 820, loss: 1.244, precision: 0.586
+step: 830, loss: 1.295, precision: 0.586
+step: 830, loss: 1.239, precision: 0.609
+step: 830, loss: 1.184, precision: 0.680
+step: 840, loss: 1.270, precision: 0.641
+step: 840, loss: 1.214, precision: 0.656
+step: 840, loss: 1.240, precision: 0.656
+step: 850, loss: 1.240, precision: 0.641
+step: 850, loss: 1.155, precision: 0.664
+step: 850, loss: 1.122, precision: 0.695
+step: 860, loss: 1.281, precision: 0.617
+step: 860, loss: 1.272, precision: 0.578step: 860, loss: 1.178, precision: 0.711
+
+step: 870, loss: 1.014, precision: 0.672
+step: 870, loss: 1.179, precision: 0.609
+step: 870, loss: 1.193, precision: 0.664
+step: 880, loss: 1.115, precision: 0.656
+step: 880, loss: 1.102, precision: 0.672
+step: 880, loss: 1.155, precision: 0.680
+step: 890, loss: 1.232, precision: 0.641
+step: 890, loss: 1.117, precision: 0.680
+step: 890, loss: 1.388, precision: 0.586
+INFO:tensorflow:Saving checkpoints for 900 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.170694
+step: 900, loss: 1.083, precision: 0.703
+step: 900, loss: 1.270, precision: 0.633
+step: 900, loss: 1.009, precision: 0.680
+step: 910, loss: 1.237, precision: 0.617
+step: 910, loss: 1.080, precision: 0.711
+step: 910, loss: 1.178, precision: 0.664
+step: 920, loss: 1.155, precision: 0.609
+step: 920, loss: 1.224, precision: 0.594step: 920, loss: 1.163, precision: 0.633
+
+step: 930, loss: 1.041, precision: 0.734
+step: 930, loss: 1.064, precision: 0.695step: 930, loss: 0.992, precision: 0.727
+
+step: 940, loss: 1.221, precision: 0.609
+step: 940, loss: 1.153, precision: 0.641
+step: 940, loss: 1.207, precision: 0.633
+step: 950, loss: 1.068, precision: 0.688
+step: 950, loss: 1.206, precision: 0.602
+step: 950, loss: 1.132, precision: 0.664
+step: 960, loss: 1.072, precision: 0.703
+step: 960, loss: 1.376, precision: 0.555
+step: 960, loss: 1.109, precision: 0.680
+step: 970, loss: 0.985, precision: 0.719
+step: 970, loss: 1.048, precision: 0.711
+step: 970, loss: 1.245, precision: 0.680
+step: 980, loss: 1.088, precision: 0.648step: 980, loss: 1.198, precision: 0.664
+
+step: 980, loss: 1.167, precision: 0.695
+step: 990, loss: 1.112, precision: 0.711
+step: 990, loss: 1.198, precision: 0.633
+step: 990, loss: 1.182, precision: 0.664
+INFO:tensorflow:Saving checkpoints for 1000 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.190167
+step: 1000, loss: 1.067, precision: 0.695
+step: 1000, loss: 1.133, precision: 0.648
+step: 1000, loss: 1.033, precision: 0.695
+step: 1010, loss: 1.109, precision: 0.695
+step: 1010, loss: 1.079, precision: 0.742
+step: 1010, loss: 1.043, precision: 0.711
+step: 1020, loss: 0.901, precision: 0.781step: 1020, loss: 1.159, precision: 0.625
+
+step: 1020, loss: 0.973, precision: 0.742
+step: 1030, loss: 1.082, precision: 0.711
+step: 1030, loss: 1.021, precision: 0.766
+step: 1030, loss: 1.097, precision: 0.656
+step: 1040, loss: 1.214, precision: 0.641
+step: 1040, loss: 1.129, precision: 0.719
+step: 1040, loss: 1.244, precision: 0.664
+step: 1050, loss: 0.915, precision: 0.727
+step: 1050, loss: 1.078, precision: 0.680
+step: 1050, loss: 1.178, precision: 0.617
+step: 1060, loss: 1.084, precision: 0.703
+step: 1060, loss: 1.188, precision: 0.656step: 1060, loss: 1.137, precision: 0.672
+
+step: 1070, loss: 1.149, precision: 0.648
+step: 1070, loss: 1.181, precision: 0.680
+step: 1070, loss: 1.044, precision: 0.703
+step: 1080, loss: 1.116, precision: 0.656
+step: 1080, loss: 1.147, precision: 0.656
+step: 1080, loss: 1.018, precision: 0.758
+step: 1090, loss: 1.176, precision: 0.586
+step: 1090, loss: 1.109, precision: 0.641
+step: 1090, loss: 1.103, precision: 0.688
+INFO:tensorflow:Saving checkpoints for 1100 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189298
+step: 1100, loss: 1.091, precision: 0.633
+step: 1100, loss: 1.100, precision: 0.672
+step: 1100, loss: 1.232, precision: 0.625
+step: 1110, loss: 1.073, precision: 0.695
+step: 1110, loss: 1.138, precision: 0.641
+step: 1110, loss: 1.087, precision: 0.695
+step: 1120, loss: 1.147, precision: 0.680
+step: 1120, loss: 1.038, precision: 0.711
+step: 1120, loss: 1.158, precision: 0.641
+step: 1130, loss: 0.968, precision: 0.758
+step: 1130, loss: 0.897, precision: 0.789
+step: 1130, loss: 0.986, precision: 0.734
+step: 1140, loss: 1.058, precision: 0.695step: 1140, loss: 1.078, precision: 0.680
+step: 1140, loss: 0.969, precision: 0.688
+
+step: 1150, loss: 1.099, precision: 0.672
+step: 1150, loss: 1.279, precision: 0.539
+step: 1150, loss: 0.972, precision: 0.734
+step: 1160, loss: 1.028, precision: 0.703
+step: 1160, loss: 1.178, precision: 0.648
+step: 1160, loss: 1.165, precision: 0.672
+step: 1170, loss: 0.979, precision: 0.703
+step: 1170, loss: 1.060, precision: 0.680
+step: 1170, loss: 0.850, precision: 0.758
+step: 1180, loss: 1.027, precision: 0.703
+step: 1180, loss: 1.126, precision: 0.703step: 1180, loss: 1.072, precision: 0.719
+
+step: 1190, loss: 1.054, precision: 0.695
+step: 1190, loss: 1.006, precision: 0.734
+step: 1190, loss: 1.138, precision: 0.711
+INFO:tensorflow:Saving checkpoints for 1200 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.187718
+step: 1200, loss: 0.979, precision: 0.734
+step: 1200, loss: 1.084, precision: 0.688
+step: 1200, loss: 1.076, precision: 0.742
+step: 1210, loss: 1.158, precision: 0.703
+step: 1210, loss: 0.975, precision: 0.742
+step: 1210, loss: 0.933, precision: 0.727
+step: 1220, loss: 0.934, precision: 0.758
+step: 1220, loss: 1.092, precision: 0.672
+step: 1220, loss: 1.047, precision: 0.711
+step: 1230, loss: 1.007, precision: 0.711
+step: 1230, loss: 1.143, precision: 0.633
+step: 1230, loss: 1.089, precision: 0.609
+step: 1240, loss: 1.156, precision: 0.680
+step: 1240, loss: 1.011, precision: 0.711
+step: 1240, loss: 0.930, precision: 0.750
+step: 1250, loss: 0.779, precision: 0.797
+step: 1250, loss: 1.046, precision: 0.695
+step: 1250, loss: 1.104, precision: 0.695
+step: 1260, loss: 1.012, precision: 0.703
+step: 1260, loss: 0.958, precision: 0.734
+step: 1260, loss: 0.981, precision: 0.703
+step: 1270, loss: 0.945, precision: 0.719
+step: 1270, loss: 1.041, precision: 0.680
+step: 1270, loss: 0.938, precision: 0.766
+step: 1280, loss: 0.922, precision: 0.773
+step: 1280, loss: 1.128, precision: 0.656
+step: 1280, loss: 0.966, precision: 0.742
+step: 1290, loss: 0.853, precision: 0.758
+step: 1290, loss: 0.987, precision: 0.742
+step: 1290, loss: 0.886, precision: 0.781
+INFO:tensorflow:Saving checkpoints for 1300 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.187663
+step: 1300, loss: 0.986, precision: 0.727
+step: 1300, loss: 1.001, precision: 0.727step: 1300, loss: 1.141, precision: 0.695
+
+step: 1310, loss: 1.035, precision: 0.734
+step: 1310, loss: 1.101, precision: 0.711
+step: 1310, loss: 0.974, precision: 0.719
+step: 1320, loss: 0.959, precision: 0.695
+step: 1320, loss: 1.067, precision: 0.688
+step: 1320, loss: 0.889, precision: 0.719
+step: 1330, loss: 1.054, precision: 0.766
+step: 1330, loss: 1.034, precision: 0.734
+step: 1330, loss: 0.934, precision: 0.742
+step: 1340, loss: 0.965, precision: 0.750step: 1340, loss: 0.942, precision: 0.719step: 1340, loss: 1.127, precision: 0.695
+
+
+step: 1350, loss: 1.080, precision: 0.695
+step: 1350, loss: 1.144, precision: 0.664
+step: 1350, loss: 0.990, precision: 0.688
+step: 1360, loss: 0.822, precision: 0.805
+step: 1360, loss: 0.967, precision: 0.773
+step: 1360, loss: 1.138, precision: 0.695
+step: 1370, loss: 0.999, precision: 0.742
+step: 1370, loss: 0.991, precision: 0.695
+step: 1370, loss: 0.844, precision: 0.781
+step: 1380, loss: 1.023, precision: 0.711
+step: 1380, loss: 0.978, precision: 0.695
+step: 1380, loss: 1.076, precision: 0.711
+step: 1390, loss: 1.006, precision: 0.688
+step: 1390, loss: 0.865, precision: 0.766
+step: 1390, loss: 0.979, precision: 0.719
+INFO:tensorflow:Saving checkpoints for 1400 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.187895
+step: 1400, loss: 0.999, precision: 0.727
+step: 1400, loss: 0.914, precision: 0.742
+step: 1400, loss: 0.990, precision: 0.711
+step: 1410, loss: 1.138, precision: 0.656
+step: 1410, loss: 0.945, precision: 0.734
+step: 1410, loss: 0.909, precision: 0.758
+step: 1420, loss: 0.866, precision: 0.797
+step: 1420, loss: 1.002, precision: 0.703
+step: 1420, loss: 1.037, precision: 0.688
+step: 1430, loss: 0.827, precision: 0.820
+step: 1430, loss: 1.020, precision: 0.719
+step: 1430, loss: 0.862, precision: 0.750
+step: 1440, loss: 0.941, precision: 0.734
+step: 1440, loss: 1.058, precision: 0.688step: 1440, loss: 0.908, precision: 0.781
+
+step: 1450, loss: 1.043, precision: 0.711
+step: 1450, loss: 1.046, precision: 0.688step: 1450, loss: 0.936, precision: 0.742
+
+step: 1460, loss: 1.024, precision: 0.688
+step: 1460, loss: 0.918, precision: 0.766
+step: 1460, loss: 0.825, precision: 0.820
+step: 1470, loss: 0.859, precision: 0.781
+step: 1470, loss: 0.863, precision: 0.766
+step: 1470, loss: 0.904, precision: 0.742
+step: 1480, loss: 0.965, precision: 0.727
+step: 1480, loss: 0.946, precision: 0.703step: 1480, loss: 1.070, precision: 0.734
+
+step: 1490, loss: 0.865, precision: 0.750
+step: 1490, loss: 1.064, precision: 0.703
+step: 1490, loss: 1.158, precision: 0.695
+INFO:tensorflow:Saving checkpoints for 1500 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189517
+step: 1500, loss: 0.917, precision: 0.750
+step: 1500, loss: 0.897, precision: 0.789
+step: 1500, loss: 1.043, precision: 0.719
+step: 1510, loss: 1.045, precision: 0.680
+step: 1510, loss: 0.901, precision: 0.766
+step: 1510, loss: 0.851, precision: 0.742
+step: 1520, loss: 1.028, precision: 0.742
+step: 1520, loss: 0.975, precision: 0.719
+step: 1520, loss: 0.792, precision: 0.812
+step: 1530, loss: 1.009, precision: 0.727
+step: 1530, loss: 0.845, precision: 0.773
+step: 1530, loss: 0.877, precision: 0.758
+step: 1540, loss: 0.875, precision: 0.727
+step: 1540, loss: 0.937, precision: 0.781
+step: 1540, loss: 0.878, precision: 0.742
+step: 1550, loss: 1.075, precision: 0.711
+step: 1550, loss: 1.005, precision: 0.711
+step: 1550, loss: 0.876, precision: 0.734
+step: 1560, loss: 0.879, precision: 0.727step: 1560, loss: 0.893, precision: 0.781
+
+step: 1560, loss: 0.796, precision: 0.797
+step: 1570, loss: 0.937, precision: 0.703
+step: 1570, loss: 1.016, precision: 0.727
+step: 1570, loss: 0.859, precision: 0.758
+step: 1580, loss: 0.810, precision: 0.773
+step: 1580, loss: 0.934, precision: 0.719
+step: 1580, loss: 1.078, precision: 0.680
+step: 1590, loss: 0.918, precision: 0.750
+step: 1590, loss: 1.077, precision: 0.680
+step: 1590, loss: 1.053, precision: 0.703
+INFO:tensorflow:Saving checkpoints for 1600 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189788
+step: 1600, loss: 0.766, precision: 0.820
+step: 1600, loss: 1.182, precision: 0.672
+step: 1600, loss: 0.911, precision: 0.688
+step: 1610, loss: 0.973, precision: 0.703
+step: 1610, loss: 0.786, precision: 0.828
+step: 1610, loss: 0.990, precision: 0.727
+step: 1620, loss: 0.870, precision: 0.758
+step: 1620, loss: 0.957, precision: 0.727
+step: 1620, loss: 0.879, precision: 0.750
+step: 1630, loss: 1.007, precision: 0.766
+step: 1630, loss: 0.858, precision: 0.750
+step: 1630, loss: 0.715, precision: 0.844
+step: 1640, loss: 0.933, precision: 0.727
+step: 1640, loss: 0.845, precision: 0.805
+step: 1640, loss: 0.897, precision: 0.758
+step: 1650, loss: 0.832, precision: 0.805
+step: 1650, loss: 1.078, precision: 0.727
+step: 1650, loss: 0.915, precision: 0.750
+step: 1660, loss: 0.837, precision: 0.805
+step: 1660, loss: 0.960, precision: 0.750
+step: 1660, loss: 0.790, precision: 0.789
+step: 1670, loss: 0.796, precision: 0.797
+step: 1670, loss: 0.839, precision: 0.797
+step: 1670, loss: 0.928, precision: 0.742
+step: 1680, loss: 0.798, precision: 0.797
+step: 1680, loss: 0.982, precision: 0.758
+step: 1680, loss: 0.896, precision: 0.766
+step: 1690, loss: 0.983, precision: 0.719
+step: 1690, loss: 0.930, precision: 0.773
+step: 1690, loss: 1.054, precision: 0.688
+INFO:tensorflow:Saving checkpoints for 1700 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.18882
+step: 1700, loss: 0.903, precision: 0.750
+step: 1700, loss: 0.981, precision: 0.727
+step: 1700, loss: 0.799, precision: 0.812
+step: 1710, loss: 0.888, precision: 0.758
+step: 1710, loss: 0.779, precision: 0.812step: 1710, loss: 0.977, precision: 0.727
+
+step: 1720, loss: 0.785, precision: 0.805
+step: 1720, loss: 0.820, precision: 0.773
+step: 1720, loss: 0.913, precision: 0.750
+step: 1730, loss: 1.127, precision: 0.625
+step: 1730, loss: 0.742, precision: 0.859
+step: 1730, loss: 0.903, precision: 0.734
+step: 1740, loss: 0.897, precision: 0.781
+step: 1740, loss: 0.852, precision: 0.797step: 1740, loss: 1.084, precision: 0.703
+
+step: 1750, loss: 0.821, precision: 0.789
+step: 1750, loss: 0.757, precision: 0.789
+step: 1750, loss: 0.990, precision: 0.734
+step: 1760, loss: 0.900, precision: 0.750
+step: 1760, loss: 0.846, precision: 0.742
+step: 1760, loss: 0.954, precision: 0.758
+step: 1770, loss: 0.835, precision: 0.758
+step: 1770, loss: 0.817, precision: 0.773
+step: 1770, loss: 0.902, precision: 0.781
+step: 1780, loss: 0.704, precision: 0.844
+step: 1780, loss: 0.888, precision: 0.750
+step: 1780, loss: 0.992, precision: 0.734
+step: 1790, loss: 0.839, precision: 0.789
+step: 1790, loss: 1.063, precision: 0.742
+step: 1790, loss: 0.840, precision: 0.766
+INFO:tensorflow:Saving checkpoints for 1800 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189669
+step: 1800, loss: 0.973, precision: 0.711
+step: 1800, loss: 0.970, precision: 0.750
+step: 1800, loss: 0.858, precision: 0.812
+step: 1810, loss: 0.875, precision: 0.734
+step: 1810, loss: 0.960, precision: 0.766
+step: 1810, loss: 0.855, precision: 0.773
+step: 1820, loss: 0.810, precision: 0.789
+step: 1820, loss: 0.825, precision: 0.797
+step: 1820, loss: 0.781, precision: 0.812
+step: 1830, loss: 0.955, precision: 0.758
+step: 1830, loss: 0.852, precision: 0.766
+step: 1830, loss: 0.922, precision: 0.750
+step: 1840, loss: 0.933, precision: 0.758
+step: 1840, loss: 0.983, precision: 0.734
+step: 1840, loss: 0.866, precision: 0.766
+step: 1850, loss: 0.911, precision: 0.742
+step: 1850, loss: 0.808, precision: 0.812
+step: 1850, loss: 0.771, precision: 0.844
+step: 1860, loss: 0.687, precision: 0.820
+step: 1860, loss: 0.741, precision: 0.820
+step: 1860, loss: 0.917, precision: 0.750
+step: 1870, loss: 0.908, precision: 0.781
+step: 1870, loss: 0.850, precision: 0.797
+step: 1870, loss: 0.780, precision: 0.766
+step: 1880, loss: 0.904, precision: 0.734
+step: 1880, loss: 0.827, precision: 0.805
+step: 1880, loss: 0.785, precision: 0.797
+step: 1890, loss: 0.869, precision: 0.789
+step: 1890, loss: 0.852, precision: 0.789
+step: 1890, loss: 0.766, precision: 0.773
+INFO:tensorflow:Saving checkpoints for 1900 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189327
+step: 1900, loss: 0.840, precision: 0.812
+step: 1900, loss: 0.878, precision: 0.750
+step: 1900, loss: 0.765, precision: 0.789
+step: 1910, loss: 0.711, precision: 0.820
+step: 1910, loss: 0.873, precision: 0.758
+step: 1910, loss: 0.935, precision: 0.727
+step: 1920, loss: 0.951, precision: 0.766
+step: 1920, loss: 0.880, precision: 0.789
+step: 1920, loss: 0.928, precision: 0.758
+step: 1930, loss: 1.061, precision: 0.680
+step: 1930, loss: 0.923, precision: 0.758
+step: 1930, loss: 0.892, precision: 0.727
+step: 1940, loss: 0.885, precision: 0.773
+step: 1940, loss: 0.706, precision: 0.844
+step: 1940, loss: 0.823, precision: 0.797
+step: 1950, loss: 0.910, precision: 0.711
+step: 1950, loss: 0.896, precision: 0.773
+step: 1950, loss: 0.881, precision: 0.781
+step: 1960, loss: 0.958, precision: 0.742
+step: 1960, loss: 0.668, precision: 0.867step: 1960, loss: 0.892, precision: 0.758
+
+step: 1970, loss: 0.758, precision: 0.836
+step: 1970, loss: 0.793, precision: 0.805
+step: 1970, loss: 0.865, precision: 0.789
+step: 1980, loss: 0.821, precision: 0.797
+step: 1980, loss: 0.979, precision: 0.695
+step: 1980, loss: 0.833, precision: 0.773
+step: 1990, loss: 0.749, precision: 0.805
+step: 1990, loss: 0.870, precision: 0.781
+step: 1990, loss: 0.758, precision: 0.797
+INFO:tensorflow:Saving checkpoints for 2000 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.188983
+step: 2000, loss: 0.691, precision: 0.867
+step: 2000, loss: 0.765, precision: 0.758
+step: 2000, loss: 0.810, precision: 0.781
+step: 2010, loss: 0.814, precision: 0.797
+step: 2010, loss: 0.806, precision: 0.781
+step: 2010, loss: 0.968, precision: 0.711
+step: 2020, loss: 0.875, precision: 0.789
+step: 2020, loss: 0.894, precision: 0.781
+step: 2020, loss: 0.885, precision: 0.773
+step: 2030, loss: 0.909, precision: 0.773
+step: 2030, loss: 0.916, precision: 0.727
+step: 2030, loss: 0.801, precision: 0.773
+step: 2040, loss: 0.900, precision: 0.711
+step: 2040, loss: 0.861, precision: 0.758
+step: 2040, loss: 0.794, precision: 0.797
+step: 2050, loss: 0.765, precision: 0.781
+step: 2050, loss: 0.734, precision: 0.805
+step: 2050, loss: 0.767, precision: 0.781
+step: 2060, loss: 0.820, precision: 0.773
+step: 2060, loss: 0.948, precision: 0.719
+step: 2060, loss: 0.808, precision: 0.805
+step: 2070, loss: 0.779, precision: 0.844
+step: 2070, loss: 0.953, precision: 0.734
+step: 2070, loss: 0.830, precision: 0.805
+step: 2080, loss: 0.845, precision: 0.742
+step: 2080, loss: 0.797, precision: 0.789
+step: 2080, loss: 0.727, precision: 0.820
+step: 2090, loss: 0.827, precision: 0.789
+step: 2090, loss: 0.798, precision: 0.797
+step: 2090, loss: 0.927, precision: 0.750
+INFO:tensorflow:Saving checkpoints for 2100 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.188281
+step: 2100, loss: 0.783, precision: 0.789
+step: 2100, loss: 0.807, precision: 0.789
+step: 2100, loss: 1.025, precision: 0.750
+step: 2110, loss: 0.793, precision: 0.797
+step: 2110, loss: 0.761, precision: 0.812step: 2110, loss: 0.770, precision: 0.789
+
+step: 2120, loss: 0.814, precision: 0.805
+step: 2120, loss: 0.834, precision: 0.766
+step: 2120, loss: 0.915, precision: 0.719
+step: 2130, loss: 0.699, precision: 0.805
+step: 2130, loss: 0.817, precision: 0.812step: 2130, loss: 0.699, precision: 0.844
+
+step: 2140, loss: 0.717, precision: 0.852
+step: 2140, loss: 0.832, precision: 0.766step: 2140, loss: 0.727, precision: 0.805
+
+step: 2150, loss: 0.921, precision: 0.734
+step: 2150, loss: 0.958, precision: 0.742step: 2150, loss: 0.769, precision: 0.812
+
+step: 2160, loss: 0.847, precision: 0.758
+step: 2160, loss: 1.232, precision: 0.664
+step: 2160, loss: 0.802, precision: 0.844
+step: 2170, loss: 0.881, precision: 0.734
+step: 2170, loss: 0.784, precision: 0.797step: 2170, loss: 0.992, precision: 0.695
+
+step: 2180, loss: 0.798, precision: 0.797
+step: 2180, loss: 0.933, precision: 0.742
+step: 2180, loss: 0.923, precision: 0.727
+step: 2190, loss: 0.935, precision: 0.742
+step: 2190, loss: 0.731, precision: 0.859
+step: 2190, loss: 0.666, precision: 0.820
+INFO:tensorflow:Saving checkpoints for 2200 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.189512
+step: 2200, loss: 0.743, precision: 0.820
+step: 2200, loss: 0.798, precision: 0.797
+step: 2200, loss: 0.849, precision: 0.750
+step: 2210, loss: 0.876, precision: 0.773
+step: 2210, loss: 0.788, precision: 0.797
+step: 2210, loss: 0.637, precision: 0.852
+step: 2220, loss: 0.682, precision: 0.805
+step: 2220, loss: 0.844, precision: 0.781
+step: 2220, loss: 0.869, precision: 0.773
+step: 2230, loss: 0.802, precision: 0.812
+step: 2230, loss: 0.956, precision: 0.766
+step: 2230, loss: 0.758, precision: 0.844
+step: 2240, loss: 0.694, precision: 0.844
+step: 2240, loss: 0.776, precision: 0.797
+step: 2240, loss: 0.900, precision: 0.750
+step: 2250, loss: 0.863, precision: 0.766
+step: 2250, loss: 0.736, precision: 0.805
+step: 2250, loss: 0.843, precision: 0.789
+step: 2260, loss: 0.727, precision: 0.812
+step: 2260, loss: 0.756, precision: 0.836
+step: 2260, loss: 0.841, precision: 0.820
+step: 2270, loss: 0.776, precision: 0.820
+step: 2270, loss: 0.748, precision: 0.836
+step: 2270, loss: 0.887, precision: 0.750
+step: 2280, loss: 0.863, precision: 0.758
+step: 2280, loss: 0.647, precision: 0.852step: 2280, loss: 0.870, precision: 0.758
+
+step: 2290, loss: 0.801, precision: 0.805
+step: 2290, loss: 0.794, precision: 0.820
+step: 2290, loss: 0.681, precision: 0.852
+INFO:tensorflow:Saving checkpoints for 2300 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.187816
+step: 2300, loss: 0.965, precision: 0.758
+step: 2300, loss: 0.804, precision: 0.805
+step: 2300, loss: 0.624, precision: 0.875
+step: 2310, loss: 0.817, precision: 0.750
+step: 2310, loss: 0.824, precision: 0.781
+step: 2310, loss: 0.820, precision: 0.805
+step: 2320, loss: 0.799, precision: 0.781
+step: 2320, loss: 0.789, precision: 0.789
+step: 2320, loss: 0.682, precision: 0.844
+step: 2330, loss: 0.915, precision: 0.789
+step: 2330, loss: 0.661, precision: 0.828step: 2330, loss: 0.589, precision: 0.859
+
+step: 2340, loss: 0.906, precision: 0.797
+step: 2340, loss: 0.807, precision: 0.797
+step: 2340, loss: 0.822, precision: 0.773
+step: 2350, loss: 0.735, precision: 0.828
+step: 2350, loss: 0.827, precision: 0.758
+step: 2350, loss: 0.911, precision: 0.719
+step: 2360, loss: 0.883, precision: 0.789
+step: 2360, loss: 0.860, precision: 0.766
+step: 2360, loss: 0.726, precision: 0.797
+step: 2370, loss: 0.758, precision: 0.836
+step: 2370, loss: 0.747, precision: 0.836
+step: 2370, loss: 0.705, precision: 0.812
+step: 2380, loss: 0.950, precision: 0.727
+step: 2380, loss: 0.762, precision: 0.828step: 2380, loss: 0.706, precision: 0.828
+
+step: 2390, loss: 0.671, precision: 0.828
+step: 2390, loss: 0.853, precision: 0.789
+step: 2390, loss: 0.810, precision: 0.789
+INFO:tensorflow:Saving checkpoints for 2400 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.188382
+step: 2400, loss: 0.766, precision: 0.836
+step: 2400, loss: 0.829, precision: 0.758
+step: 2400, loss: 0.768, precision: 0.797
+step: 2410, loss: 0.703, precision: 0.820
+step: 2410, loss: 0.905, precision: 0.750
+step: 2410, loss: 0.712, precision: 0.844
+step: 2420, loss: 0.830, precision: 0.750
+step: 2420, loss: 0.797, precision: 0.758
+step: 2420, loss: 0.779, precision: 0.789
+step: 2430, loss: 0.800, precision: 0.789
+step: 2430, loss: 0.707, precision: 0.828
+step: 2430, loss: 0.682, precision: 0.820
+step: 2440, loss: 0.801, precision: 0.812
+step: 2440, loss: 0.683, precision: 0.836step: 2440, loss: 0.682, precision: 0.828
+
+step: 2450, loss: 0.645, precision: 0.836
+step: 2450, loss: 0.824, precision: 0.758
+step: 2450, loss: 0.878, precision: 0.766
+step: 2460, loss: 0.689, precision: 0.836
+step: 2460, loss: 0.798, precision: 0.789
+step: 2460, loss: 0.748, precision: 0.820
+step: 2470, loss: 0.794, precision: 0.805
+step: 2470, loss: 0.728, precision: 0.836
+step: 2470, loss: 0.769, precision: 0.781
+step: 2480, loss: 0.568, precision: 0.867
+step: 2480, loss: 0.783, precision: 0.789
+step: 2480, loss: 0.940, precision: 0.766
+step: 2490, loss: 0.723, precision: 0.828
+step: 2490, loss: 0.762, precision: 0.820
+step: 2490, loss: 0.807, precision: 0.797
+INFO:tensorflow:Saving checkpoints for 2500 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.188615
+step: 2500, loss: 0.693, precision: 0.828
+step: 2500, loss: 0.709, precision: 0.859
+step: 2500, loss: 0.797, precision: 0.766
+step: 2510, loss: 0.876, precision: 0.750
+step: 2510, loss: 0.790, precision: 0.805
+step: 2510, loss: 0.851, precision: 0.781
+step: 2520, loss: 0.785, precision: 0.805
+step: 2520, loss: 0.935, precision: 0.758
+step: 2520, loss: 0.685, precision: 0.844
+step: 2530, loss: 0.850, precision: 0.773
+step: 2530, loss: 0.683, precision: 0.812
+step: 2530, loss: 0.809, precision: 0.805
+step: 2540, loss: 0.724, precision: 0.812
+step: 2540, loss: 0.841, precision: 0.789
+step: 2540, loss: 0.846, precision: 0.766
+step: 2550, loss: 0.773, precision: 0.805
+step: 2550, loss: 1.062, precision: 0.672
+step: 2550, loss: 0.825, precision: 0.789
+step: 2560, loss: 0.733, precision: 0.852
+step: 2560, loss: 0.744, precision: 0.812step: 2560, loss: 0.780, precision: 0.789
+
+step: 2570, loss: 0.756, precision: 0.781
+step: 2570, loss: 0.777, precision: 0.805
+step: 2570, loss: 0.762, precision: 0.781
+step: 2580, loss: 0.816, precision: 0.773
+step: 2580, loss: 0.744, precision: 0.805
+step: 2580, loss: 0.692, precision: 0.812
+step: 2590, loss: 0.690, precision: 0.859
+step: 2590, loss: 0.717, precision: 0.789
+step: 2590, loss: 0.744, precision: 0.820
+INFO:tensorflow:Saving checkpoints for 2600 into ckpt/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.195508
+step: 2600, loss: 0.730, precision: 0.820
+step: 2600, loss: 0.776, precision: 0.812
+step: 2600, loss: 0.645, precision: 0.875
+()
+Download finished!
+Uncompression finished!

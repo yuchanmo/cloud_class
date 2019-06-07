@@ -1,0 +1,11 @@
+{
+
+    "dropout_rate":{"_type":"uniform","_value":[0.31,0.38]},
+    "conv_size":{"_type":"choice","_value":[2]},
+    "hidden_size":{"_type":"choice","_value":[2048]},
+    "channel_1_num":{"_type":"choice","_value":[32]},
+    "channel_2_num":{"_type":"choice","_value":[128]},
+    "batch_size": {"_type":"choice", "_value": [32]},
+    "learning_rate":{"_type":"uniform","_value":[0.01,0.025]}
+}
+

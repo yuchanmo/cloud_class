@@ -1,0 +1,18 @@
+authorName: ds2
+experimentName: fmnist
+trialConcurrency: 4
+maxExecDuration: 4h
+maxTrialNum: 100
+#choice: local, remote, pai
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
+  #SMAC (SMAC should be installed through nnictl)
+  builtinTunerName: Random
+trial:
+  command: python3 fmnist-keras.py
+  codeDir: .
+  gpuNum: 0
